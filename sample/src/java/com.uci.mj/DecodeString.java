@@ -1,5 +1,6 @@
 package com.uci.mj;
 
+import java.util.ArrayList;
 import java.util.Stack;
 
 /**
@@ -54,7 +55,6 @@ public class DecodeString {
 //        DecodeString decodeString = new DecodeString();
 //        String s = decodeString.decodeString("100[leetcode]");
 //        System.out.println(s);
-
         String s = "abc";
         System.out.println(s.substring(3).equals(""));
     }
