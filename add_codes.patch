@@ -1,0 +1,633 @@
+Index: sample/src/java/com.uci.mj/NumMatrix.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/NumMatrix.java	(revision )
++++ sample/src/java/com.uci.mj/NumMatrix.java	(revision )
+@@ -0,0 +1,54 @@
++package com.uci.mj;
++
++import java.util.ArrayList;
++
++public class NumMatrix {
++    int[][] dp;
++    public NumMatrix(int[][] matrix) {
++        dp = new int[matrix.length][matrix[0].length];
++        if(matrix == null || matrix.length == 0 || matrix[0].length == 0){
++            return;
++        }
++        dp[0][0] = matrix[0][0];
++        
++        for(int i = 1; i < matrix[0].length; i++){
++            dp[0][i] = dp[0][i-1] + matrix[0][i];
++        }
++        for(int i = 1; i < matrix.length; i++){
++            dp[i][0] = dp[i-1][0] + matrix[i][0];
++        }
++        for(int i = 1; i < matrix.length; i++){
++            for(int j = 1; j < matrix[0].length; j++){
++                dp[i][j] = dp[i-1][j] +dp[i][j-1] - dp[i-1][j-1] + matrix[i][j];
++            }
++        }
++    }
++    public static void main(String[] args){
++        NumMatrix numMatrix = new NumMatrix(new int[][]{{1,2,3}});
++        ArrayList<Integer> integers = new ArrayList<Integer>();
++        integers.remove(Integer.valueOf(1));
++
++        System.out.println(integers);
++    }
++
++    public int sumRegion(int row1, int col1, int row2, int col2) {
++        int row3 = row1 - 1;
++        int col3 = col1 - 1;
++        if(row3 < 0 && col3 > 0){
++            return dp[row2][col2] - dp[row2][col3];
++        } 
++        if(row3 > 0 && col3 < 0){
++            return dp[row3][col2] - dp[row3][col2];
++        }
++        if(row3 < 0 && col3 < 0){
++            return dp[row2][col2];
++        }
++        return dp[row2][col2] - dp[row2][col3] - dp [row3][col2] + dp[row3][col3];
++    }
++}
++
++
++// Your NumMatrix object will be instantiated and called as such:
++// NumMatrix numMatrix = new NumMatrix(matrix);
++// numMatrix.sumRegion(0, 1, 2, 3);
++// numMatrix.sumRegion(1, 2, 3, 4);
+\ No newline at end of file
+Index: sample/src/java/com.uci.mj/PriorityQueueSample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/PriorityQueueSample.java	(revision )
++++ sample/src/java/com.uci.mj/PriorityQueueSample.java	(revision )
+@@ -0,0 +1,60 @@
++package com.uci.mj;
++
++import java.util.PriorityQueue;
++
++
++/**
++ * Created by junm5 on 10/5/16.
++ */
++public class PriorityQueueSample {
++
++    public ListNode mergeKLists(ListNode[] lists) {
++        if (lists == null || lists.length == 0) {
++            return null;
++        }
++        PriorityQueue<Integer> pq = new PriorityQueue<Integer>();
++        for (int i = 0; i < lists.length; i++) {
++            ListNode current = lists[i];
++            while (current != null) {
++                pq.add(current.val);
++            }
++        }
++        if (pq.peek() == null) {
++            return null;
++        }
++        ListNode head = new ListNode(pq.poll());
++        ListNode current = head;
++        while (!pq.isEmpty()) {
++
++            ListNode temp = new ListNode(pq.poll());
++            current.next = temp;
++            current = temp;
++        }
++        return head;
++    }
++
++    public static void main(String[] args) {
++        PriorityQueueSample priorityQueueSample = new PriorityQueueSample();
++        ListNode[]  listNodes = new ListNode[1];
++        listNodes[0] = new ListNode(1);
++        ListNode listNode = priorityQueueSample.mergeKLists(listNodes);
++        System.out.println(listNode);
++    }
++
++    static class ListNode {
++        int val;
++        ListNode next;
++
++        ListNode(int x) {
++            val = x;
++        }
++
++        @Override
++        public String toString() {
++            return "ListNode{" +
++                    "val=" + val +
++                    ", next=" + next +
++                    '}';
++        }
++    }
++}
+Index: sample/src/java/com.uci.mj/PathSumII.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/PathSumII.java	(revision )
++++ sample/src/java/com.uci.mj/PathSumII.java	(revision )
+@@ -0,0 +1,42 @@
++package com.uci.mj;
++
++
++import org.omg.CORBA.INTERNAL;
++
++import java.util.ArrayList;
++import java.util.List;
++
++/**
++ * Created by junm5 on 10/2/16.
++ */
++public class PathSumII {
++
++    private void pathSumer(TreeNode root, int sum, List<Integer> temp, List<List<Integer>> res){
++        if(root == null){
++            return;
++        }
++        temp.add(root.val);
++        if(root.left == null && root.right == null && sum == root.val){
++            res.add(temp);
++            temp.clear();
++        }
++        if(root.left !=null){
++            pathSumer(root.left, sum - root.val, temp, res);
++        }
++        if(root.right !=null){
++            pathSumer(root.right, sum - root.val, temp, res);
++        }
++        temp.remove(root.val);
++    }
++    public static void main(String[] args){
++        PathSumII pathSumII = new PathSumII();
++        TreeNode treeNode = TreeNode.builderTestData();
++        int sum = 11;
++        List<Integer> temp = new ArrayList<Integer>();
++        List<List<Integer>> res = new ArrayList<List<Integer>>();
++
++        pathSumII.pathSumer(treeNode, sum, temp, res);
++        System.out.println(res);
++    }
++
++}
+Index: sample/src/java/com.uci.mj/LongestPalindrome.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/LongestPalindrome.java	(revision )
++++ sample/src/java/com.uci.mj/LongestPalindrome.java	(revision )
+@@ -0,0 +1,49 @@
++package com.uci.mj;
++
++import org.omg.CORBA.INTERNAL;
++
++import java.util.HashMap;
++import java.util.Map;
++import java.util.Set;
++import java.util.Stack;
++
++/**
++ * Created by junm5 on 10/4/16.
++ */
++public class LongestPalindrome {
++    public int longestPalindrome(String s) {
++        Map<Character, Integer> map = new HashMap<Character, Integer>();
++        int max = 0;
++        char[] ch = s.toCharArray();
++        for (int i = 0; i < ch.length; i++) {
++            Integer val = map.get(ch[i]);
++            if (val == null) {
++                map.put(ch[i], 1);
++            } else {
++                map.put(ch[i], val + 1);
++            }
++        }
++
++        Set<Character> keys = map.keySet();
++        for (Character c : keys) {
++            Integer val = map.get(c);
++            if (max % 2 == 0) {
++                max += val;
++            } else {
++                if (val % 2 == 0) {
++                    max += val;
++                } else {
++                    max += val - 1;
++
++                }
++            }
++        }
++        return max;
++    }
++    public static void main(String [] args){
++        LongestPalindrome longestPalindrome = new LongestPalindrome();
++        int abccccdd = longestPalindrome.longestPalindrome("abccccdd");
++        System.out.println(abccccdd);
++
++    }
++}
+Index: sample/src/java/com.uci.mj/Solution.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/Solution.java	(revision )
++++ sample/src/java/com.uci.mj/Solution.java	(revision )
+@@ -0,0 +1,40 @@
++package com.uci.mj;
++
++public class Solution {
++    public int wiggleMaxLength(int[] nums) {
++        if(nums.length < 2){
++            return nums.length;
++        }
++        int[] dp = new int[nums.length];
++        int[] diff = new int[nums.length];
++        for(int i = 1; i < nums.length; i++){
++            diff[i] = nums[i] - nums[i-1];
++        }
++        dp[0] = 1;
++        if(diff[1] == 0){
++            dp[1] =1;
++        }else{
++            dp[1] = 2;
++        }
++        int max = dp[1];
++        for(int i = 2; i<nums.length; i++){
++            if(diff[i] * diff[i-1] < 0){
++                dp[i] = dp[i-1] + 1;
++            }
++            else if(diff[i] * diff[i-1] == 0){
++                dp[i] = 1;
++            }
++            else{
++                dp[i] = 2;
++            }
++            if(max < dp[i]){
++                max = dp[i];
++            }
++        }
++        return max;
++    }
++    public static void main(String[] arsg){
++        Solution solution = new Solution();
++        solution.wiggleMaxLength(new int[]{0,0});
++    }
++}
+\ No newline at end of file
+Index: sample/src/java/com.uci.mj/UglyNumber.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/UglyNumber.java	(revision )
++++ sample/src/java/com.uci.mj/UglyNumber.java	(revision )
+@@ -0,0 +1,61 @@
++package com.uci.mj;
++
++import java.util.PriorityQueue;
++
++/**
++ * Created by junm5 on 10/5/16.
++ */
++public class UglyNumber {
++    public int nthSuperUglyNumber(int n, int[] primes) {
++        int result[] = new int[n];
++        PriorityQueue<Node> priorityQueue = new PriorityQueue<Node>();
++        for (int i = 0; i < primes.length; i++) {
++            priorityQueue.add(new Node(0, primes[i], primes[i]));
++        }
++        result[0] = 1;
++
++        for (int i = 1; i < n; i++) {
++            Node peek = priorityQueue.peek();
++            result[i] = peek.val;
++            do {
++                Node cul = priorityQueue.poll();
++                cul.val = result[++cul.index] * cul.prime;
++                priorityQueue.add(cul);
++            } while (result[i] == priorityQueue.peek().val);
++        }
++
++        return result[n - 1];
++    }
++
++    public static void main(String [] arhs){
++        UglyNumber uglyNumber = new UglyNumber();
++        int[] primes = new int[]{2, 3, 7};
++        uglyNumber.nthSuperUglyNumber(10, primes);
++    }
++
++    class Node implements Comparable<Node> {
++        int index;
++        int val;
++        int prime;
++
++        public Node(int index, int val, int prime) {
++            this.index = index;
++            this.val = val;
++            this.prime = prime;
++        }
++
++
++        @Override
++        public String toString() {
++            return "Node{" +
++                    "index=" + index +
++                    ", val=" + val +
++                    ", prime=" + prime +
++                    '}';
++        }
++
++        public int compareTo(Node x) {
++            return this.val > x.val ? 1 : -1;
++        }
++    }
++}
+Index: sample/src/java/com.uci.mj/TreeNode.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/TreeNode.java	(revision )
++++ sample/src/java/com.uci.mj/TreeNode.java	(revision )
+@@ -0,0 +1,47 @@
++package com.uci.mj;
++
++/**
++ * Created by junm5 on 10/2/16.
++ */
++public class TreeNode {
++    public TreeNode left;
++    public TreeNode right;
++    public int val;
++
++    public TreeNode(int val) {
++        this.val = val;
++    }
++
++    @Override
++    public String toString() {
++        return "TreeNode{" +
++                ", val=" + val +
++                '}';
++    }
++
++    /*
++                1
++            2         3
++         4    5     6     7
++
++         */
++    public static TreeNode builderTestData() {
++        TreeNode t1 = new TreeNode(1);
++        TreeNode t2 = new TreeNode(2);
++        TreeNode t3 = new TreeNode(3);
++        TreeNode t4 = new TreeNode(4);
++        TreeNode t5 = new TreeNode(5);
++        TreeNode t6 = new TreeNode(6);
++        TreeNode t7 = new TreeNode(7);
++
++        t1.left = t2;
++        t1.right = t3;
++
++        t2.left = t4;
++        t2.right = t5;
++
++        t3.left = t6;
++        t3.right = t7;
++        return t1;
++    }
++}
+Index: sample/src/java/com.uci.mj/SlidingWindowMaximum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/SlidingWindowMaximum.java	(revision )
++++ sample/src/java/com.uci.mj/SlidingWindowMaximum.java	(revision )
+@@ -0,0 +1,58 @@
++package com.uci.mj;
++
++import java.util.HashMap;
++import java.util.LinkedList;
++import java.util.Observable;
++import java.util.Queue;
++
++/**
++ * Created by junm5 on 10/9/16.
++ */
++public class SlidingWindowMaximum {
++    public int[] maxSlidingWindow(int[] nums, int k) {
++        if (nums == null || nums.length == 0) {
++            return new int[0];
++        }
++        LinkedList<Integer> queue = new LinkedList();
++        int[] res = new int[nums.length - k + 1];
++
++        for (int i = 0; i < nums.length; i++) {
++            if (!queue.isEmpty() && queue.peekFirst() == i - k){
++                queue.poll();
++            }
++
++            while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]) {
++                queue.removeLast();
++            }
++            queue.offer(i);
++            if (i >= k - 1) {
++                Integer poll = queue.peek();
++                res[i - k + 1] = nums[poll];
++            }
++        }
++        return res;
++    }
++
++    public static void main(String[] args) {
++        SlidingWindowMaximum slidingWindowMaximum = new SlidingWindowMaximum();
++        int[] ints = slidingWindowMaximum.maxSlidingWindow(new int[]{1, 3, -1, -3, 5, 3, 6, 7}, 3);
++        for (int a : ints) {
++            System.out.print(a + " ");
++        }
++
++        System.out.println();
++        int[] ints1 = slidingWindowMaximum.maxSlidingWindow(new int[]{5, 4, 3, 2, 1, 0}, 3);
++        for (int a : ints1) {
++            System.out.print(a + " ");
++        }
++
++
++        System.out.println();
++        int[] ints2 = slidingWindowMaximum.maxSlidingWindow(new int[]{5}, 1);
++        for (int a : ints2) {
++            System.out.print(a + " ");
++        }
++
++    }
++
++}
+Index: sample/src/java/com.uci.mj/BinarySearch.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/BinarySearch.java	(revision )
++++ sample/src/java/com.uci.mj/BinarySearch.java	(revision )
+@@ -0,0 +1,27 @@
++package com.uci.mj;
++
++/**
++ * Created by junm5 on 10/7/16.
++ */
++public class BinarySearch {
++
++    int binarySearch(int N, int[] A, int key, int start, int end) {
++        if (start >= end) {
++            return key >= A[start] ? (start + 1) : start;
++        }
++        int middle = (start + end) / 2;
++        if (key < A[middle]) {
++            return binarySearch(N, A, key, start, middle - 1);
++        } else {
++            return binarySearch(N, A, key, middle + 1, end);
++        }
++    }
++    public static void main(String[] args){
++        System.out.println(Math.pow(2, 2.8));
++        int[] data = {1};
++        BinarySearch binarySearch = new BinarySearch();
++        int i = binarySearch.binarySearch(data.length, data, 0, 0, data.length - 1);
++        System.out.println(i);
++    }
++
++}
+Index: sample/src/java/com.uci.mj/BullsAndCows.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/BullsAndCows.java	(revision )
++++ sample/src/java/com.uci.mj/BullsAndCows.java	(revision )
+@@ -0,0 +1,41 @@
++package com.uci.mj;
++
++import java.util.HashMap;
++import java.util.Map;
++
++/**
++ * Created by junm5 on 10/9/16.
++ */
++public class BullsAndCows {
++    public String getHint(String secret, String guess) {
++        Map<Character, Integer> map = new HashMap();
++        int bulls = 0, cows = 0;
++        for(int i = 0; i < secret.length(); i++){
++            if(secret.charAt(i) == guess.charAt(i)){
++                bulls ++;
++            }else{
++                Integer temp =  map.get(secret.charAt(i));
++                if(temp == null){
++                    map.put(secret.charAt(i), 1);
++                }else{
++                    map.put(secret.charAt(i), temp+1);
++                }
++            }
++        }
++        System.out.println(map.keySet()+":"+map.values());
++        for(int i = 0; i < guess.length(); i++){
++            Integer fre = map.get(guess.charAt(i));
++            if(fre !=null && fre != 0){
++                cows++;
++                map.put(guess.charAt(i), fre -1);
++            }
++        }
++        return "" +bulls + "A" + cows + "B";
++    }
++
++    public static void main(String[] args){
++        BullsAndCows bullsAndCows = new BullsAndCows();
++        String hint = bullsAndCows.getHint("1807", "7810");
++
++    }
++}
+Index: sample/src/java/com.uci.mj/KthSmallestElement.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/KthSmallestElement.java	(revision )
++++ sample/src/java/com.uci.mj/KthSmallestElement.java	(revision )
+@@ -0,0 +1,42 @@
++package com.uci.mj;
++
++import java.util.PriorityQueue;
++
++/**
++ * Created by junm5 on 10/9/16.
++ */
++
++public class KthSmallestElement {
++    class Node implements Comparable<Node>{
++        int i;
++        int j;
++        int val;
++        Node(int i, int j, int val){
++            this.i = i;
++            this.j = j;
++            this.val = val;
++        }
++        public int compareTo(Node node){
++            return this.val >= node.val ? 1 : -1;
++        }
++    }
++
++    public int kthSmallest(int[][] matrix, int k) {
++        PriorityQueue<Node> queue = new PriorityQueue<Node>();
++        for(int i = 0; i < matrix[0].length; i++){
++            queue.offer(new Node(0, i, matrix[0][i]));
++        }
++        int count = 0;
++        while(count < k){
++            Node node = queue.poll();
++            count ++;
++            if(count == k){
++                return node.val;
++            }
++            if((node.i + 1) < matrix.length){
++                queue.offer(new Node(node.i+1, node.j, matrix[node.i + 1][node.j]));
++            }
++        }
++        return -1;
++    }
++}
+Index: sample/src/java/com.uci.mj/DecodeString.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sample/src/java/com.uci.mj/DecodeString.java	(revision 6ee6c399dc592703aeee2e353cac564e573c174c)
++++ sample/src/java/com.uci.mj/DecodeString.java	(revision )
+@@ -1,5 +1,6 @@
+ package com.uci.mj;
+ 
++import java.util.ArrayList;
+ import java.util.Stack;
+ 
+ /**
+@@ -54,7 +55,6 @@
+ //        DecodeString decodeString = new DecodeString();
+ //        String s = decodeString.decodeString("100[leetcode]");
+ //        System.out.println(s);
+-
+         String s = "abc";
+         System.out.println(s.substring(3).equals(""));
+     }
