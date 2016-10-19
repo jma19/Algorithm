@@ -1,5 +1,6 @@
 package com.uci.mj;
 
+import java.util.Map;
 import java.util.PriorityQueue;
 
 
@@ -39,6 +40,7 @@ public class PriorityQueueSample {
         listNodes[0] = new ListNode(1);
         ListNode listNode = priorityQueueSample.mergeKLists(listNodes);
         System.out.println(listNode);
+        Map map = null;
     }
 
     static class ListNode {

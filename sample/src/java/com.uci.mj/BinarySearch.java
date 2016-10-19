@@ -1,5 +1,8 @@
 package com.uci.mj;
 
+import java.util.Collections;
+import java.util.Random;
+
 /**
  * Created by junm5 on 10/7/16.
  */
@@ -16,7 +19,9 @@ public class BinarySearch {
             return binarySearch(N, A, key, middle + 1, end);
         }
     }
+//
     public static void main(String[] args){
+
         System.out.println(Math.pow(2, 2.8));
         int[] data = {1};
         BinarySearch binarySearch = new BinarySearch();
