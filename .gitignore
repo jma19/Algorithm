@@ -9,6 +9,6 @@
 *.jar
 *.war
 *.ear
-
+*.class
 *.iml
 *.idea
