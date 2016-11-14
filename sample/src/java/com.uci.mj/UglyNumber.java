@@ -1,5 +1,6 @@
 package com.uci.mj;
 
+import java.util.HashMap;
 import java.util.PriorityQueue;
 
 /**

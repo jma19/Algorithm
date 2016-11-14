@@ -34,9 +34,10 @@ public class BinaryWatch {
         System.out.println(str.substring(0, str.length()-1));
 
         String adb = "abc";
-        System.out.println(adb.substring(0, 2));
-        StringBuffer stringBuffer = new StringBuffer(adb);
-        System.out.println(stringBuffer.reverse().toString());
+        System.out.println(adb.substring(0, adb.length()-1));
+//        System.out.println(adb.substring(0, 2));
+//        StringBuffer stringBuffer = new StringBuffer(adb);
+//        System.out.println(stringBuffer.reverse().toString());
 
     }
 
