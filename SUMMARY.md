@@ -1,3 +1,6 @@
-# Table of content
+# Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Dynamtic Programming](chapter1.md)
+* [120. Triangle](triangle.md)
+
