@@ -23,7 +23,7 @@ Explanation: You could form "10", but then you'd have nothing left. Better form 
 
 #### Analysis & Solution
 
-The problem can be interpreted as: What's the max number of str can we pick from strs with limitation of m "0"s and n "1"s. Thus we can define dp[i][j] stands for max number of str can we pick from strs with limitation of i "0"s and j "1"s. For each str, assume it has a "0"s and b "1"s, we update the dp array iteratively and set dp[i][j] = Math.max(dp[i][j], dp[i - a][j - b] + 1). So and the end, dp[m][n] is the answer.
+The problem can be interpreted as: What's the max number of str can we pick from strs with limitation of m "0"s and n "1"s. Thus we can define ** dp[i][j] stands for max number of str can we pick from strs with limitation of i "0"s and j "1"s. For each str, assume it has a "0"s and b "1"s, we update the dp array iteratively and set dp[i][j] = Math.max(dp[i][j], dp[i - a][j - b] + 1). So and the end, dp[m][n] is the answer. **
 
 
 
