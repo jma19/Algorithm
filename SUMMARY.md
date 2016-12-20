@@ -7,5 +7,6 @@
     * [376. Wiggle Subsequence](wiggle-subsequence.md)
     * [473. Matchsticks to Square](2.md)
     * [474. Ones and Zeroes](leetcode-474---ones-and-zeroes.md)
+    * [464 . Can I Win](464--can-i-win.md)
 * [5. Longest Palindromic Substring](longest-palindromic-substring.md)
 
