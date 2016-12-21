@@ -19,6 +19,15 @@ Output: "bb"
 
 ####Analysis & Solution
 
+Brute force solution: use two loops to find all combinations, which takes O(n^2) time complexity. 
+A more effective solution is shown as follows:
+
+There are two conditions:
+
+1. When the length of palindromic string is odd,  we search from the center of index i. 
+2. When the length of palindromic string is even,
+we search as the from index i-1 and j.
+
 ~~~
 
     public String longestPalindrome(String s) {
