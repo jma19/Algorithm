@@ -12,4 +12,5 @@
 * [Two Sum](two-sum.md)
 * [2. Add Two Numbers](add-two-numbers.md)
 * [3. Longest Substring Without Repeating Characters](3.md)
+* [6. ZigZag Conversion](2.md)
 
