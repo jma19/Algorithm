@@ -17,14 +17,7 @@ Output: "bb"
 
 ~~~
 
-
-
-
-
-
 ####Analysis & Solution
-
-
 
 ~~~
 
