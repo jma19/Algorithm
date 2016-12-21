@@ -10,4 +10,5 @@
     * [464 . Can I Win](464--can-i-win.md)
 * [5. Longest Palindromic Substring](longest-palindromic-substring.md)
 * [Two Sum](two-sum.md)
+* [2. Add Two Numbers](add-two-numbers.md)
 
