@@ -2,14 +2,15 @@
 
 2. Convex Polygon
 3. Optimal Account Balancing
-Sequence Reconstruction
-Ternary Expression Parser
-Word Squares
-Valid Word Square
-Sentence Screen Fitting
-Minimum Unique Word Abbreviation
-Valid Word Abbreviation
-Design Phone Directory
+3. Sequence Reconstruction
+4. Ternary Expression Parser
+5. Word Squares
+6. Valid Word Square
+7. Sentence Screen Fitting
+8. Minimum Unique Word Abbreviation
+9. Valid Word Abbreviation
+10. Rotate Image  	
+11. Design Phone Directory
 Range Addition
 Plus One Linked List
 Find Leaves of Binary Tree
