@@ -26,4 +26,5 @@
 * [premium question list](premium-question-list.md)
 * [Encode String with Shortest Length](encode-string-with-shortest-length.md)
 * [Group Strings](group-strings.md)
+* [Nested List Weight Sum](nested-list-weight-sum.md)
 
