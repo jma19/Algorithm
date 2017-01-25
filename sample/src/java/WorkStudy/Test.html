@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>
+        This is a test for javascript
+    </title>
 </head>
 <body>
-$END$
+
+<script>
+    function sayHello() {
+        alert("hello world!!!")
+    }
+    function sum(arr) {
+        if(arr){
+            var sum = 0;
+            for (i = 0; i < arr.length; i++) {
+                sum += arr[i];
+            }
+            alert("The sum = " + sum)
+            return;
+        }
+        alert("arr is null or empty")
+    }
+    function File() {
+
+    }
+</script>
+<form>
+    "Name":
+    <input type="text" size=30>
+    <br>
+    <input type="type" size=30>
+    <br>
+    <button onclick="sum(null)" onmouseover="this.style.color = 'red'">click me</button>
+</form>
 </body>
 </html>

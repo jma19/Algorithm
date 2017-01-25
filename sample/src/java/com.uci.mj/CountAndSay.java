@@ -36,6 +36,8 @@ public class CountAndSay {
         CountAndSay countAndSay = new CountAndSay();
         String transform = countAndSay.transform("111221");
         System.out.println(transform);
+        String[] splits1 = "01".split("\\.");
+        System.out.println(splits1.length);
     }
     //My name is Junma, I came from China. I got my bachor degree from Nanjing University of post and Telecommunocation
     //in 2014. After graduation,  software defined network and
