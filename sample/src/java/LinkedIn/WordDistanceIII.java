@@ -1,7 +1,5 @@
 package LinkedIn;
 
-import java.util.HashMap;
-
 /**
  * Created by junm5 on 12/26/16.
  */
