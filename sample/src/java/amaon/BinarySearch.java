@@ -1,6 +1,9 @@
 package amaon;
 
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Created by junm5 on 1/28/17.
  */
@@ -13,6 +16,7 @@ public class BinarySearch {
     }
     //find the nearst index for target
     private static int binarySeacrh(int[] array, int target){
+        LinkedList<Integer> queue = new LinkedList();
         int start = 0, end = array.length - 1;
         while(start <= end){
             int middle = (start + end)/2;

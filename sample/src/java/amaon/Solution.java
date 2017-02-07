@@ -4,7 +4,6 @@ public class Solution {
     
     public int countBattleships(char[][] board) {
         if(board == null || board.length==0 || board[0].length == 0){
-
             return 0;
         }
         int m = board.length, n = board[0].length, count = 0;

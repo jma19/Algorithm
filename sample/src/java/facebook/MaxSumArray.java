@@ -33,6 +33,5 @@ public class MaxSumArray {
     public static void main(String[] args) {
         MaxSumArray maxSumArray = new MaxSumArray();
         maxSumArray.maxSubArrayLen(new int[]{1,-1,5,-2,3}, 3);
-        Integer.highestOneBit(1)
     }
 }
