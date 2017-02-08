@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e10dd7-993d-4830-bfe7-d4c38daabc72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/Add2Numers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/AllO1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/Anagrams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/FindDuplex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/MinStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/RemoveDuplicates.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/Replace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/java/amaon/BinarySearch.java" afterPath="$PROJECT_DIR$/sample/src/java/amaon/BinarySearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/java/amaon/CountCompletNodes.java" afterPath="$PROJECT_DIR$/sample/src/java/amaon/CountCompletNodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/java/amaon/Solution.java" afterPath="$PROJECT_DIR$/sample/src/java/amaon/Solution.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/java/facebook/MaxSumArray.java" afterPath="$PROJECT_DIR$/sample/src/java/facebook/MaxSumArray.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeapImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="-1086">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -201,6 +190,20 @@
                 <element signature="e#739#740#0" expanded="true" />
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#832#833#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleContainer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,7 +257,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample/src/java/Applovin/JavaProgrammingExercise.java" />
         <option value="$PROJECT_DIR$/sample/src/java/Applovin/ProducerAndConsumer.java" />
         <option value="$PROJECT_DIR$/sample/src/java/Applovin/ThreadCommunication.java" />
         <option value="$PROJECT_DIR$/sample/src/java/Applovin/ShareCounter.java" />
@@ -305,6 +307,7 @@
         <option value="$PROJECT_DIR$/sample/src/java/amaon/AllO1.java" />
         <option value="$PROJECT_DIR$/sample/src/java/amaon/MinStack.java" />
         <option value="$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java" />
       </list>
     </option>
   </component>
@@ -466,6 +469,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataStructure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Applovin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="amaon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1091,7 +1146,7 @@
       <workItem from="1485889613409" duration="2707000" />
       <workItem from="1486062102353" duration="1405000" />
       <workItem from="1486161050842" duration="16501000" />
-      <workItem from="1486490767132" duration="1574000" />
+      <workItem from="1486490767132" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="add codes">
       <created>1475449659740</created>
@@ -1153,7 +1208,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251407000" />
+    <option name="totallyTimeSpent" value="252827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1167,8 +1222,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22465754" sideWeight="0.2003231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16712329" sideWeight="0.6155089" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22327045" sideWeight="0.7996769" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16712329" sideWeight="0.6155089" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22191781" sideWeight="0.7996769" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1507,14 +1562,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/PascalTriangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/PalindromeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1794,6 +1841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1952,8 +2000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="-1086">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -1969,6 +2017,18 @@
             <element signature="e#739#740#0" expanded="true" />
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#832#833#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
           </folding>
         </state>
       </provider>
