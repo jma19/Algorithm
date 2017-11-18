@@ -40,10 +40,50 @@ public class LongestPalindrome {
         }
         return max;
     }
-    public static void main(String [] args){
-        LongestPalindrome longestPalindrome = new LongestPalindrome();
-        int abccccdd = longestPalindrome.longestPalindrome("abccccdd");
-        System.out.println(abccccdd);
 
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(5);
+        ListNode l3 = new ListNode(3);
+        ListNode l4 = new ListNode(2);
+        ListNode l5 = new ListNode(7);
+        ListNode l6 = new ListNode(4);
+
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
+        l5.next = l6;
+
+        ListNode remove = remove(l1, 3);
+        while (remove != null){
+            System.out.println(remove.val);
+            remove = remove.next;
+        }
     }
+
+
+    public static ListNode remove(ListNode head, int x) {
+        ListNode fakeNode = new ListNode(-1), pre = fakeNode, cur = head;
+        while (cur != null) {
+            if (cur.val <= x) {
+                pre.next = cur;
+                pre = cur;
+            }
+            cur = cur.next;
+        }
+        pre.next = null;
+        return fakeNode.next;
+    }
+
+
+    static class ListNode {
+        ListNode next;
+        Integer val;
+
+        ListNode(Integer val) {
+            this.val = val;
+        }
+    }
+
 }
