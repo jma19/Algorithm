@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e10dd7-993d-4830-bfe7-d4c38daabc72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/MostFrequentSubtreeSum.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/RangeSumQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/SumClosest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/src/java/amaon/Add2NumersTest.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/Applovin/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/amaon/InsertSortList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/google/MyCalendar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/src/java/google/Solution.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/sample.iml" afterPath="$PROJECT_DIR$/sample/sample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java" afterPath="$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,6 +31,9 @@
     <SUITE FILE_PATH="coverage/Algorithm$LeetCombination.coverage" NAME="LeetCombination Coverage Results" MODIFIED="1483502632178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>facebook.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/Algorithm$RandomizedSet.coverage" NAME="RandomizedSet Coverage Results" MODIFIED="1512942761217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Applovin.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
@@ -47,121 +52,112 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZigZagConversion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/ZigZagConversion.java">
+      <file leaf-file-name="CheckParentValid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/hard/CheckParentValid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="510">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java">
+      <file leaf-file-name="ContinusSubArraySum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/hard/ContinusSubArraySum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="840">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleCourses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/hard/ScheduleCourses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertSortList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/InsertSortList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="26" selection-start-line="8" selection-start-column="6" selection-end-line="25" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCalendar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/google/MyCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#217#218#0" expanded="false" />
-                <element signature="e#257#258#0" expanded="false" />
-                <element signature="e#331#332#0" expanded="false" />
-                <element signature="e#367#368#0" expanded="false" />
-                <element signature="e#416#417#0" expanded="false" />
-                <element signature="e#452#453#0" expanded="false" />
-                <element signature="e#497#498#0" expanded="false" />
-                <element signature="e#535#536#0" expanded="false" />
-                <element signature="e#582#583#0" expanded="false" />
-                <element signature="e#636#637#0" expanded="false" />
-                <element signature="e#684#685#0" expanded="false" />
-                <element signature="e#739#740#0" expanded="false" />
-                <element signature="e#783#784#0" expanded="false" />
-                <element signature="e#832#833#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/facebook/Caculator.java">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/google/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BTVerticalOrderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/facebook/BTVerticalOrderTraversal.java">
+      <file leaf-file-name="ReverseHalfLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonRepeatedCharater.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/NonRepeatedCharater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindAllDispearNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/google/FindAllDispearNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="840">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#1380#1381#0" expanded="false" />
+                <element signature="e#1410#1411#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Caculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/google/Caculator.java">
+      <file leaf-file-name="IsSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/IsSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="13" selection-start-line="14" selection-start-column="39" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RangeSumQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RangeSumQuery.java">
+      <file leaf-file-name="LRUCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample/src/java/hard/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MostFrequentSubtreeSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/MostFrequentSubtreeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SumClosest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/SumClosest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -175,6 +171,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="package-info" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -190,57 +187,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample/src/java/Applovin/LinkedList.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Applovin/QuickSort.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/MultiThread/ProducerAndConsumer.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/MultiThread/Consumer.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Applovin/MergeSort.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Applovin/ReverseHalfLinkedList.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/ParenthesesCounter.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/MinPath.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/RotateMatrix.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/facebook/Caculator.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/facebook/CountAndSay.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/MultiThread/SharedQueue.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/com.uci.mj/DivideTwoInteger.java" />
-        <option value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/com/apple/concurrent/LibDispatchMainQueue.class" />
-        <option value="$PROJECT_DIR$/sample/src/java/MultiThread/ExecutorsExample.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/ThreeSum.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/QuickSort.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/reverseDoubleLnkedLis.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Twitter/IMask.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Twitter/InformationMask.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Twitter/ExpressionTrees.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/Twitter/ET.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/CountInversalTree.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/StringParser.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/com.uci.mj/UglyNumber.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Serach2DMatrix.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Solution.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/facebook/MaxSumArray.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/FindDuplex.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/removeDuplicates.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Anagrams.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/LinkedList.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/CountCompletNodes.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Add2Numers.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Replace.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/AllOne.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/AllO1.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/MinStack.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/RecoveryTree.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/Add2NumersTest.groovy" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/MergeInterval.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/com.uci.mj/DistinctNumber.java" />
-        <option value="$PROJECT_DIR$/sample/src/java/amaon/RangeSumQuery.java" />
         <option value="$PROJECT_DIR$/sample/src/java/amaon/MostFrequentSubtreeSum.java" />
         <option value="$PROJECT_DIR$/sample/src/java/amaon/SumClosest.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/SubstringAllWords.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/Anagrams.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/Worker.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/WorkA.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/WorkB.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/CreateMaximumNumber.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Tree/DiameterBT.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/google/SingleEleInSortedArray.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/CycleNumber.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/QueueReconstruction.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/MeetingRoom.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/TheMaze.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/CharTest.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/math/MySqrt.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/facebook/FourSums.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Tree/RangeQuery.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Tree/ReversePairs.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/queue/SanckGames.java" />
+        <option value="$PROJECT_DIR$/sample/pom.xml" />
+        <option value="$PROJECT_DIR$/sample/src/java/DataStructure/HeapImplTest.java" />
+        <option value="$PROJECT_DIR$/sample/test/DataStructure/HeapImplTest.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Twitter/Permutation.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Twitter/ThreeStack.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Twitter/MinStack.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/stack/SetOfStacks.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/bitmatulation/NumberComplement.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/bitmatulation/PrintBinar.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/bitmatulation/PrintBinary.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/DataStructure/BuildOrder.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/DataStructure/RandomNode.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/com.uci.mj/ListNode.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/com.uci.mj/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/IsSequence.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/CheckParentValid.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/UniquePath.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/NumArray.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/LongValidParentheses.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/FlatternBinaryTree.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/Solution.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/LRUCache.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/ContinusSubArraySum.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/hard/ScheduleCourses.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/amaon/InsertSortList.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/Applovin/Solution.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/google/MyCalendar.java" />
+        <option value="$PROJECT_DIR$/sample/src/java/google/Solution.java" />
       </list>
     </option>
   </component>
@@ -323,6 +320,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -370,51 +368,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -443,10 +397,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.uci.mj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -470,44 +420,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Applovin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Algorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amaon" />
+              <option name="myItemId" value="google" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/project4-04/codebase" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="settings.editor.selected.configurable" value="osmorc.ide.settings" />
@@ -520,33 +443,39 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sample/src/java/Twitter" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="GO_FMT" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="DataStructure" />
       <recent name="amaon" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.uci.mj" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="groovy.util.GroovyTestCase" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="amaon" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sample/src/java/Twitter" />
       <recent name="$PROJECT_DIR$/sample/src/java/com.uci.mj" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.uci.mj" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SumClosest">
-    <configuration default="false" name="RecoveryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Solution">
+    <configuration default="false" name="InsertSortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="amaon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="amaon.RecoveryTree" />
+      <option name="MAIN_CLASS_NAME" value="amaon.InsertSortList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -559,14 +488,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Add2NumersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="amaon.*" />
+          <option name="PATTERN" value="Applovin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="amaon.Add2NumersTest" />
+      <option name="MAIN_CLASS_NAME" value="Applovin.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -579,14 +508,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="amaon.*" />
+          <option name="PATTERN" value="Applovin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="amaon.MergeInterval" />
+      <option name="MAIN_CLASS_NAME" value="Applovin.RandomizedSet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,14 +528,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MostFrequentSubtreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MyCalendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="amaon.*" />
+          <option name="PATTERN" value="google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="amaon.MostFrequentSubtreeSum" />
+      <option name="MAIN_CLASS_NAME" value="google.MyCalendar" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -619,14 +548,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="SumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="amaon.*" />
+          <option name="PATTERN" value="google.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="amaon.SumClosest" />
+      <option name="MAIN_CLASS_NAME" value="google.Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1095,19 +1024,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.MaxPoints" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RecoveryTree" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Add2NumersTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MergeInterval" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MostFrequentSubtreeSum" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SumClosest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.InsertSortList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Solution (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RandomizedSet" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MyCalendar" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SumClosest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MostFrequentSubtreeSum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MergeInterval" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Add2NumersTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RecoveryTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MyCalendar" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RandomizedSet" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Solution (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InsertSortList" />
       </list>
     </recent_temporary>
   </component>
@@ -1154,6 +1083,36 @@
       <workItem from="1487263348990" duration="80000" />
       <workItem from="1487406371484" duration="4393000" />
       <workItem from="1487695390043" duration="1342000" />
+      <workItem from="1487872473565" duration="357000" />
+      <workItem from="1488138045738" duration="119000" />
+      <workItem from="1488141760708" duration="610000" />
+      <workItem from="1488861870278" duration="2896000" />
+      <workItem from="1489306140140" duration="775000" />
+      <workItem from="1489516764410" duration="2610000" />
+      <workItem from="1490149739493" duration="822000" />
+      <workItem from="1490634406564" duration="3027000" />
+      <workItem from="1491070717350" duration="1013000" />
+      <workItem from="1491372082264" duration="1027000" />
+      <workItem from="1491667829606" duration="1587000" />
+      <workItem from="1492544256180" duration="1091000" />
+      <workItem from="1492985244255" duration="2110000" />
+      <workItem from="1493787882870" duration="1572000" />
+      <workItem from="1495934770158" duration="5441000" />
+      <workItem from="1497719651621" duration="228000" />
+      <workItem from="1497750720130" duration="7259000" />
+      <workItem from="1498346698809" duration="2091000" />
+      <workItem from="1498486720532" duration="2216000" />
+      <workItem from="1498802263078" duration="12889000" />
+      <workItem from="1451606480672" duration="306000" />
+      <workItem from="1506100875629" duration="5421000" />
+      <workItem from="1506540275276" duration="4044000" />
+      <workItem from="1507163156394" duration="1942000" />
+      <workItem from="1508283277801" duration="1816000" />
+      <workItem from="1510617940319" duration="6029000" />
+      <workItem from="1510977633875" duration="621000" />
+      <workItem from="1511391473192" duration="436000" />
+      <workItem from="1512938998694" duration="2392000" />
+      <workItem from="1513057654637" duration="1900000" />
     </task>
     <task id="LOCAL-00001" summary="add codes">
       <created>1475449659740</created>
@@ -1211,15 +1170,36 @@
       <option name="project" value="LOCAL" />
       <updated>1486168510901</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add codes">
+      <created>1492544290068</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1492544290068</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add codes">
+      <created>1496000359059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1496000359059</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add codes">
+      <created>1510987051701</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1510987051701</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264753000" />
+    <option name="totallyTimeSpent" value="339400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1228,18 +1208,18 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22465754" sideWeight="0.2003231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33972603" sideWeight="0.6155089" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19452055" sideWeight="0.6155089" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24657534" sideWeight="0.7996769" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2092084" sideWeight="0.48809522" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14378029" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27260274" sideWeight="0.5759289" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31917807" sideWeight="0.5759289" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2092084" sideWeight="0.5119048" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1595,8 +1575,101 @@
           <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/amaon/SubstringAllWords.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/amaon/SubstringAllWords.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/Tree/DiameterBT.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/google/SingleEleInSortedArray.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/facebook/FourSums.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/Tree/ReversePairs.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/amaon/IsSequence.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/CheckParentValid.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/UniquePath.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/NumArray.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/LongValidParentheses.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/ContinusSubArraySum.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/hard/ContinusSubArraySum.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/Applovin/Solution.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sample/src/java/google/Solution.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="178" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="245" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1605,6 +1678,35 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/BullsAndCows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/CanIWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/CanIWin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/CharMather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/ContainsDuplicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1612,291 +1714,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_codes.patch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/WorkStudy/Test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/UnionFind/UnionFindAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/LinkedIn/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/CountAndSay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RecoveryTree.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/CountNumberWithUniqueDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#846#847#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RuleContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/DeisgnAResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/CountCompletNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/Anagrams.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/DecodeString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/FindDuplex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/Add2Numers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/DeisgnALib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/LinkedIn/Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/MinPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/MergeInterval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/CountInversalTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/CountPrimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/CheckAgrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/ShareCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/AdditiveNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/AllCombinationProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/Arithmetics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/DPEditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/FindMaxform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/FindDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/DivideTwoInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/DistinctNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/PascalTriangle.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/DivideTwoInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/GenerateParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
@@ -1904,125 +1757,359 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/ShortestWordDistance.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/GroupShiftedString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/Heaters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/WiggleSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/ZigZagConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/DataStructure/HeapImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#217#218#0" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-            <element signature="e#331#332#0" expanded="false" />
-            <element signature="e#367#368#0" expanded="false" />
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-            <element signature="e#582#583#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#739#740#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#832#833#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/facebook/Caculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/facebook/BTVerticalOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/google/FindAllDispearNumber.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/HIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/InOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/IsAnagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/InsertionSortList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/IslandPerimeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/KthSmallestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/largestRectangleArea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/LetterCombination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/LinkedListMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/target/classes/Applovin/Calculator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/target/classes/Applovin/CountPrimes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/target/classes/Applovin/HowToCheckDigit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/com.uci.mj/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/CheckAgrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/HowToCheckDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/LongestPalindrom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/Add2Numers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/UniquePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/FlatternBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/LongValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="9" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/NumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/FindDuplex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3810">
+          <caret line="277" column="22" selection-start-line="277" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="e#0#39347#0" expanded="false" />
+            <element signature="e#8008#8009#0" expanded="false" />
+            <element signature="e#8036#8037#0" expanded="false" />
+            <element signature="e#8248#8249#0" expanded="false" />
+            <element signature="e#8275#8276#0" expanded="false" />
+            <element signature="e#8748#8749#0" expanded="false" />
+            <element signature="e#8787#8788#0" expanded="false" />
+            <element signature="e#8938#8939#0" expanded="false" />
+            <element signature="e#8965#8966#0" expanded="false" />
+            <element signature="e#11209#11210#0" expanded="false" />
+            <element signature="e#11247#11248#0" expanded="false" />
+            <element signature="e#15878#15879#0" expanded="false" />
+            <element signature="e#15927#15928#0" expanded="false" />
+            <element signature="e#16099#16100#0" expanded="false" />
+            <element signature="e#16149#16150#0" expanded="false" />
+            <element signature="e#16416#16417#0" expanded="false" />
+            <element signature="e#16470#16471#0" expanded="false" />
+            <element signature="e#19921#19922#0" expanded="false" />
+            <element signature="e#19954#19955#0" expanded="false" />
+            <element signature="e#20484#20485#0" expanded="false" />
+            <element signature="e#20520#20521#0" expanded="false" />
+            <element signature="e#20770#20771#0" expanded="false" />
+            <element signature="e#20799#20800#0" expanded="false" />
+            <element signature="e#23214#23215#0" expanded="false" />
+            <element signature="e#23241#23242#0" expanded="false" />
+            <element signature="e#23699#23700#0" expanded="false" />
+            <element signature="e#23735#23736#0" expanded="false" />
+            <element signature="e#24161#24162#0" expanded="false" />
+            <element signature="e#24193#24194#0" expanded="false" />
+            <element signature="e#26756#26757#0" expanded="false" />
+            <element signature="e#26803#26804#0" expanded="false" />
+            <element signature="e#27125#27126#0" expanded="false" />
+            <element signature="e#27169#27170#0" expanded="false" />
+            <element signature="e#27499#27500#0" expanded="false" />
+            <element signature="e#27539#27540#0" expanded="false" />
+            <element signature="e#27577#27578#0" expanded="false" />
+            <element signature="e#27621#27622#0" expanded="false" />
+            <element signature="e#29442#29443#0" expanded="false" />
+            <element signature="e#29489#29490#0" expanded="false" />
+            <element signature="e#29728#29729#0" expanded="false" />
+            <element signature="e#29776#29777#0" expanded="false" />
+            <element signature="e#29802#29803#0" expanded="false" />
+            <element signature="e#29847#29848#0" expanded="false" />
+            <element signature="e#29878#29879#0" expanded="false" />
+            <element signature="e#29914#29915#0" expanded="false" />
+            <element signature="e#36042#36043#0" expanded="false" />
+            <element signature="e#36098#36099#0" expanded="false" />
+            <element signature="e#39243#39244#0" expanded="false" />
+            <element signature="e#39336#39337#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/google/Caculator.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="370">
+          <caret line="998" column="45" selection-start-line="998" selection-start-column="39" selection-end-line="998" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/RangeSumQuery.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/Add2NumersTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/NonRepeatedCharater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/MostFrequentSubtreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/SumClosest.java">
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/CheckParentValid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/ContinusSubArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/hard/ScheduleCourses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/ReverseHalfLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding>
+            <element signature="e#1380#1381#0" expanded="false" />
+            <element signature="e#1410#1411#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/IsSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" selection-start-line="14" selection-start-column="39" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/amaon/InsertSortList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="26" selection-start-line="8" selection-start-column="6" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/Applovin/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/google/MyCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/java/google/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
