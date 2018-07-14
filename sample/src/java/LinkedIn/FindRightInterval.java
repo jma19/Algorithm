@@ -1,6 +1,7 @@
 package LinkedIn;
 
-import java.util.Map;
+import common.Interval;
+
 import java.util.TreeMap;
 
 /**

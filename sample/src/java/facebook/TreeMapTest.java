@@ -1,7 +1,5 @@
 package facebook;
 
-import LinkedIn.Interval;
-
 import java.util.Map;
 import java.util.TreeMap;
 

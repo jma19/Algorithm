@@ -2,7 +2,7 @@ package google;
 
 import java.util.*;
 
-class Solution {
+class SimilarTwo {
     public boolean areSentencesSimilarTwo(String[] words1, String[] words2, String[][] pairs) {
         if (words1.length != words2.length) {
             return false;
@@ -19,7 +19,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        SimilarTwo solution = new SimilarTwo();
         solution.areSentencesSimilarTwo(new String[]{
                 "great", "acting", "skills"
         }, new String[]{
@@ -28,6 +28,7 @@ class Solution {
                 {"great", "good"}, {"fine", "good"}, {"drama", "acting"}, {"skills", "talent"}
         });
         System.out.println(3 << 2);
+
 
 
     }
